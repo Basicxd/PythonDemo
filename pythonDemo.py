@@ -1,3 +1,16 @@
+from sense_hat import SenseHat
+from time import sleep
+from random import randint
+
+sense = SenseHat()
+sense.clear()
+
+blue = (0, 0, 255)
+red = (255, 0, 0)
+green = (0, 255, 0)
+black = (0, 0, 0)
+speedForRoation = 0.5
+
 def red():
   sense.clear(255, 0, 0)
 
